@@ -1,5 +1,5 @@
 # Heart Disease Prediction
-
+## Deployed in Heroku :  https://heart--disease--prediction.herokuapp.com/
 ### Table of contents
 * Demo
 * Overview
