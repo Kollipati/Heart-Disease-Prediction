@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<h1>Heart Disease Prediction</h1>
+
+<body style="background-color:gold;color:white;">
+
+<form action="/predict" method=["GET","POST"]>
+  <legend> Heart Disease Prediction:: </legend>
+   <label for="age">age:</label><br>
+   <input type="number" id="age" name="age"><br>
+   <label for="sex">sex:</label><br>
+   <input type="number" id="sex" name="sex"><br>
+   <label for="cp">cp:</label><br>
+   <input type="number" id="cp" name="cp"><br>
+   <label for="trtbps">trtbps:</label><br>
+   <input type="number" id="trtbps" name="trtbps"><br>
+   <label for="chol">chol:</label><br>
+   <input type="number" id="chol" name="chol"><br>
+   <label for="fbs">fbs:</label><br>
+   <input type="number" id="fbs" name="fbs"><br>
+   <label for="restecg">restecg:</label><br>
+   <input type="number" id="restecg" name="restecg"><br>
+   <label for="thalachh">thalachh:</label><br>
+   <input type="number" id="thalachh" name="thalachh"><br>
+   <label for="exng">exng:</label><br>
+   <input type="number" id="exng" name="exng"><br>
+   <label for="oldpeak">oldpeak:</label><br>
+   <input type="number" id="oldpeak" name="oldpeak"><br>
+   <label for="slp">slp:</label><br>
+   <input type="number" id="slp" name="slp"><br>
+   <label for="caa">caa:</label><br>
+   <input type="number" id="caa" name="caa"><br>
+   <label for="thall">thall:</label><br>
+   <input type="number" id="thall" name="thall"><br>
+   <input type="submit" value="predict"><br><br>
+
+ <h2> {{prediction_text}}</h2>
+
+</form>
+</body>
+</html>
